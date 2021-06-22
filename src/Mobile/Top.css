@@ -1,0 +1,10 @@
+.topContainer{
+    height: 30vh;
+}
+
+video{
+    position: absolute;
+    top: -270px;
+    left: 0;
+    z-index: -1;
+}

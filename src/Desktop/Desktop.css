@@ -1,0 +1,124 @@
+.container {
+  width: 60%;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttonDesktop {
+  padding: 10px;
+  margin: auto;
+  margin-top: 50px;
+  border: 1px solid;
+  border-radius: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.buttonDesktop img {
+  width: 100%;
+}
+
+.bigButtonDesktop {
+  padding: 10px;
+  margin: auto;
+  margin-top: 50px;
+  border: 1px solid;
+  border-radius: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.bigButtonDesktop img {
+  width: 100%;
+}
+
+.tooltip {
+  animation: blinker 0.8s linear infinite;
+  position: absolute;
+  width: 150px;
+  margin-left: 15px;
+  opacity: 0;
+}
+
+.progTitle {
+  position: relative;
+  margin-top: 12px;
+}
+
+#name {
+  font-size: 46px;
+}
+
+#info {
+  font-size: 26px;
+}
+
+#name, #info{
+  padding: 10px;
+}
+
+.draggableInfo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  width: 500px;
+  height: 170px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 425px) {
+  .buttonDesktop {
+    margin: 20px;
+    margin-bottom: 40px;
+  }
+}
+
+.close {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.navbar {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.navbar img {
+  width: 15px;
+  padding: 3px;
+}
+
+hr {
+  position: absolute;
+  top: 14px;
+  left: 0;
+  width: 99.8%;
+}

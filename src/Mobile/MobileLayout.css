@@ -1,0 +1,19 @@
+.wip{
+    display: flex;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 80px;
+    width: 40%;
+    animation: rotating 4s linear infinite;
+}
+
+.divWip{
+    position: absolute;
+    top: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+@keyframes rotating {
+    100% { transform: rotate(-360deg); }
+}

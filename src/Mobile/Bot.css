@@ -1,0 +1,20 @@
+.botContainer {
+    display: grid;
+    padding-top: 30px;
+    grid-template-columns: 50% 50%;
+}
+
+.button {
+    margin: auto;
+    margin-bottom: 50px;
+    display: inline-grid;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.button img {
+    width: 100%;
+}
